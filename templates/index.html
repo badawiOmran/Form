@@ -5,8 +5,158 @@ Home
 {% endblock %}
 
 {% block body %}
-<h1>Hello World</h1>
+<div>
+     <div class="row justify-content-center align-items-center">
+        <h1 style="padding-top: 15px ; color: red;" >Quick</h1>
+    </div>
+    <div class="form-group col-sm-2">
+        <label for="validationCustom01" class="row justify-content-center align-items-center">Money Transfer Number</label>
+        <input type="number" class="form-control" id="validationDefaultUsername" name="No"
+            placeholder="No" aria-describedby="inputGroupPrepend2" required>
+    </div>
+    <hr />
+    <!-- <div class="row justify-content-center align-items-center h-100">-->
+        <div class="col"> 
+            <form>
+                <div class="form-group ">
+                    <label for="validationCustom01">Full Name :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="funame"
+                        placeholder="Fullname" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Date :</label>
+                    <input type="date" class="form-control" id="validationDefaultUsername" name="date"
+                        placeholder="Date" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Address :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="address"
+                        placeholder="Address" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">City :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="city"
+                        placeholder="City" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">PhoneNo :</label>
+                    <input type="number" class="form-control" id="validationDefaultUsername" name="phno"
+                        placeholder="PhoneNo" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">IDNo :</label>
+                    <input type="number" class="form-control" id="validationDefaultUsername" name="idno"
+                        placeholder="IDNo" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <hr />
+                <div class="row justify-content-center align-items-center">
+                    <h1 style="padding-top: 15px ;color: red;">RECIPENT INFORMATION</h1>
+                </div>
+                <hr />
+                <div class="form-group">
+                    <label for="validationCustom01">First Name :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="finame"
+                        placeholder="Firstname" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Second Name :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="sname"
+                        placeholder="Secondname" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Country/City :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="country"
+                        placeholder="Country/City" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">PhoneNo :</label>
+                    <input type="number" class="form-control" id="validationDefaultUsername" name="phno2"
+                        placeholder="PhoneNo" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <hr />
+                <div class="row justify-content-center align-items-center">
+                    <h1 style="padding-top: 15px ;color: red;">TRANSFER INFORMATION</h1>
+                </div>
+                <hr />
+                <div class="form-group">
+                    <label for="validationCustom01">Source Of Fund :</label>
+                    <label class="checkbox-inline"><input type="checkbox" value="">Salary</label>
+                    <label class="checkbox-inline"><input type="checkbox" value="">Saving</label>
+                    <label class="checkbox-inline"><input type="checkbox" value="">Sale Property</label>
+                    <label class="checkbox-inline"><input type="checkbox" value="">Business Sale</label>
+                    <label class="checkbox-inline"><input type="checkbox" value="">Gift</label>
+                    <label class="checkbox-inline"><input type="checkbox" value="">Others</label>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Reason For TRANSFER :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="reason"
+                        placeholder="Reason For TRANSFER" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Amount To Send :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="amount"
+                        placeholder="Amount To Send" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Reciving Amount :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="receving"
+                        placeholder="Reciving Amount" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Charges :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="charges"
+                        placeholder="Charges" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Total Amount :</label>
+                    <input type="number" class="form-control" id="validationDefaultUsername" name="total"
+                        placeholder="Total Amount" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Type of payment (Wire , Cash) :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="payment"
+                        placeholder="Type of payment (Wire , Cash)" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Date :</label>
+                    <input type="date" class="form-control" id="validationDefaultUsername" name="dataTrans"
+                        placeholder="Date" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Agent :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="agent"
+                        placeholder="Agent" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                <div class="form-group">
+                    <label for="validationCustom01">Customer :</label>
+                    <input type="text" class="form-control" id="validationDefaultUsername" name="customer"
+                        placeholder="Customer" aria-describedby="inputGroupPrepend2" required>
+                </div>
+                
 
+                <div class="form-group">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col"><button class="btn btn-primary btn-lg btn-block">Submit</button></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer -->
+                <!-- <footer class="page-footer font-small blue fixed-bottom"> -->
+
+                    <!-- Copyright -->
+                    <!-- <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+                    </div> -->
+                    <!-- Copyright -->
+
+                <!-- </footer> -->
+                <!-- Footer -->
+            </form>
+        </div>
+    <!-- </div>
+</div>
+ -->
 
 
 
